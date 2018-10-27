@@ -5,133 +5,33 @@ a, a:active, a:hover, a:visited {
 a:active, a:hover {
   color: #fba837; }
 
+#logo {
+  width: 100px;
+  height: 100px; }
+
 body {
   background-color: #000000;
   padding: 0px;
   margin: 0px;
-  font-family: 'Josefin Sans', sans-serif !important;
-  }
-
-#logo {
-    width: 100px;
-    height: 100px;
-}
+  font-family: 'Josefin Sans', sans-serif; }
 
 #gradient {
   width: 100%;
-  height: auto;
+  height: 100px;
   padding: 0px;
-  margin: 0px;
-}
-.navbar-brand a{
-    text-decoration: none !important;
-    font-weight: 600 !important;
-}
+  margin: 0px; }
 
 #forgot {
-  color: #280085 !important;
-}
+  color: #280085 !important; }
 
-
-
-#carousel-content {
-    padding: 0;
-}
-
-#carousel-img1{
-    background-color: #f7e3d9 !important;
-}
-
-.caption-text{
-    color: black !important;
-}
-
-.caption-text p{
-    margin-bottom: 0;
-}
-
-.caption-text h3{
-    margin-bottom: 0;
-}
-
-.carousel-caption {
-    padding-bottom: 5px !important;
-    padding-top: 0 !important;
-}
-
-.carousel-text{
-    position: relative;
-    max-width: 300px;
-    height: 50px !important;
-    bottom: 10% !important;
-    left: 50% !important;
-}
-
-hr {
-    margin-top: 0 !important;
-    margin-bottom: 10px !important;
-}
-
-.category-homepage{
-}
-
-.category-homepage h3{
-    margin-top: 30px;
-    text-align: center;
-}
-
-@media (min-width: 1200px) {
-    #carouselExampleIndicators {
-        height: 400px !important;
-    }
-    .carousel-image{
-        max-width: auto !important;
-        height: 400px !important;
-    }
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-    #carouselExampleIndicators {
-        height: 300px !important;
-    }
-    .carousel-image{
-        max-width: auto !important;
-        height: 300px !important;
-    }
-}
-
-@media (max-width: 991px) {
-    #logo {
-        display: none;
-    }
-    .navbar-brand a{
-        font-size: 4vw !important;
-        margin-left: 20%;
-    }
-
-    #carouselExampleIndicators {
-        height: 200px !important;
-    }
-
-    .carousel-image{
-        height: 200px !important;
-        width: auto !important;
-    }
-
-    .carousel-caption {
-        padding-bottom: 0px !important;
-        padding-top: 0 !important;
-        bottom: 0 !important;
-    }
-    .caption-text h3{
-        font-size: 2vw;
-        margin-bottom: 0;
-    }
-    .caption-text p{
-        font-size: 1w;
-    }
-
-}
+/*!
+ * Bootstrap v4.1.3 (https://getbootstrap.com/)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+.button:hover, .button:focus {
+  background-color: white; }
 
 :root {
   --blue: #007bff;
@@ -6945,3 +6845,4 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+/*# sourceMappingURL=style.css.map */
